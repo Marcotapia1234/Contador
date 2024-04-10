@@ -14,6 +14,7 @@
 		A9882EEC2BC6E5EF00A1F9B9 /* ContadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EEB2BC6E5EF00A1F9B9 /* ContadorTests.swift */; };
 		A9882EF62BC6E5EF00A1F9B9 /* ContadorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EF52BC6E5EF00A1F9B9 /* ContadorUITests.swift */; };
 		A9882EF82BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EF72BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift */; };
+		A9882F072BC6EF4F00A1F9B9 /* Circulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882F062BC6EF4F00A1F9B9 /* Circulo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A9882EF12BC6E5EF00A1F9B9 /* ContadorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9882EF52BC6E5EF00A1F9B9 /* ContadorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorUITests.swift; sourceTree = "<group>"; };
 		A9882EF72BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9882F062BC6EF4F00A1F9B9 /* Circulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A9882EDC2BC6E5EB00A1F9B9 /* ContentView.swift */,
 				A9882EDE2BC6E5EE00A1F9B9 /* Assets.xcassets */,
 				A9882EE02BC6E5EE00A1F9B9 /* Preview Content */,
+				A9882F062BC6EF4F00A1F9B9 /* Circulo.swift */,
 			);
 			path = Contador;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9882EDD2BC6E5EB00A1F9B9 /* ContentView.swift in Sources */,
+				A9882F072BC6EF4F00A1F9B9 /* Circulo.swift in Sources */,
 				A9882EDB2BC6E5EB00A1F9B9 /* ContadorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
