@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9882EDB2BC6E5EB00A1F9B9 /* ContadorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EDA2BC6E5EB00A1F9B9 /* ContadorApp.swift */; };
+		A9882EDD2BC6E5EB00A1F9B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EDC2BC6E5EB00A1F9B9 /* ContentView.swift */; };
+		A9882EDF2BC6E5EE00A1F9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9882EDE2BC6E5EE00A1F9B9 /* Assets.xcassets */; };
+		A9882EE22BC6E5EE00A1F9B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9882EE12BC6E5EE00A1F9B9 /* Preview Assets.xcassets */; };
+		A9882EEC2BC6E5EF00A1F9B9 /* ContadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EEB2BC6E5EF00A1F9B9 /* ContadorTests.swift */; };
+		A9882EF62BC6E5EF00A1F9B9 /* ContadorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EF52BC6E5EF00A1F9B9 /* ContadorUITests.swift */; };
+		A9882EF82BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9882EF72BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9882EE82BC6E5EF00A1F9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9882ECF2BC6E5EB00A1F9B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9882ED62BC6E5EB00A1F9B9;
+			remoteInfo = Contador;
+		};
+		A9882EF22BC6E5EF00A1F9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9882ECF2BC6E5EB00A1F9B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9882ED62BC6E5EB00A1F9B9;
+			remoteInfo = Contador;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9882ED72BC6E5EB00A1F9B9 /* Contador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9882EDA2BC6E5EB00A1F9B9 /* ContadorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorApp.swift; sourceTree = "<group>"; };
+		A9882EDC2BC6E5EB00A1F9B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9882EDE2BC6E5EE00A1F9B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9882EE12BC6E5EE00A1F9B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9882EE72BC6E5EF00A1F9B9 /* ContadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9882EEB2BC6E5EF00A1F9B9 /* ContadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorTests.swift; sourceTree = "<group>"; };
+		A9882EF12BC6E5EF00A1F9B9 /* ContadorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContadorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9882EF52BC6E5EF00A1F9B9 /* ContadorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorUITests.swift; sourceTree = "<group>"; };
+		A9882EF72BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9882ED42BC6E5EB00A1F9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9882EE42BC6E5EF00A1F9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9882EEE2BC6E5EF00A1F9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9882ECE2BC6E5EB00A1F9B9 = {
+			isa = PBXGroup;
+			children = (
+				A9882ED92BC6E5EB00A1F9B9 /* Contador */,
+				A9882EEA2BC6E5EF00A1F9B9 /* ContadorTests */,
+				A9882EF42BC6E5EF00A1F9B9 /* ContadorUITests */,
+				A9882ED82BC6E5EB00A1F9B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9882ED82BC6E5EB00A1F9B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9882ED72BC6E5EB00A1F9B9 /* Contador.app */,
+				A9882EE72BC6E5EF00A1F9B9 /* ContadorTests.xctest */,
+				A9882EF12BC6E5EF00A1F9B9 /* ContadorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9882ED92BC6E5EB00A1F9B9 /* Contador */ = {
+			isa = PBXGroup;
+			children = (
+				A9882EDA2BC6E5EB00A1F9B9 /* ContadorApp.swift */,
+				A9882EDC2BC6E5EB00A1F9B9 /* ContentView.swift */,
+				A9882EDE2BC6E5EE00A1F9B9 /* Assets.xcassets */,
+				A9882EE02BC6E5EE00A1F9B9 /* Preview Content */,
+			);
+			path = Contador;
+			sourceTree = "<group>";
+		};
+		A9882EE02BC6E5EE00A1F9B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9882EE12BC6E5EE00A1F9B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9882EEA2BC6E5EF00A1F9B9 /* ContadorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9882EEB2BC6E5EF00A1F9B9 /* ContadorTests.swift */,
+			);
+			path = ContadorTests;
+			sourceTree = "<group>";
+		};
+		A9882EF42BC6E5EF00A1F9B9 /* ContadorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9882EF52BC6E5EF00A1F9B9 /* ContadorUITests.swift */,
+				A9882EF72BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift */,
+			);
+			path = ContadorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9882ED62BC6E5EB00A1F9B9 /* Contador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9882EFB2BC6E5EF00A1F9B9 /* Build configuration list for PBXNativeTarget "Contador" */;
+			buildPhases = (
+				A9882ED32BC6E5EB00A1F9B9 /* Sources */,
+				A9882ED42BC6E5EB00A1F9B9 /* Frameworks */,
+				A9882ED52BC6E5EB00A1F9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contador;
+			productName = Contador;
+			productReference = A9882ED72BC6E5EB00A1F9B9 /* Contador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9882EE62BC6E5EF00A1F9B9 /* ContadorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9882EFE2BC6E5EF00A1F9B9 /* Build configuration list for PBXNativeTarget "ContadorTests" */;
+			buildPhases = (
+				A9882EE32BC6E5EF00A1F9B9 /* Sources */,
+				A9882EE42BC6E5EF00A1F9B9 /* Frameworks */,
+				A9882EE52BC6E5EF00A1F9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9882EE92BC6E5EF00A1F9B9 /* PBXTargetDependency */,
+			);
+			name = ContadorTests;
+			productName = ContadorTests;
+			productReference = A9882EE72BC6E5EF00A1F9B9 /* ContadorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9882EF02BC6E5EF00A1F9B9 /* ContadorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9882F012BC6E5EF00A1F9B9 /* Build configuration list for PBXNativeTarget "ContadorUITests" */;
+			buildPhases = (
+				A9882EED2BC6E5EF00A1F9B9 /* Sources */,
+				A9882EEE2BC6E5EF00A1F9B9 /* Frameworks */,
+				A9882EEF2BC6E5EF00A1F9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9882EF32BC6E5EF00A1F9B9 /* PBXTargetDependency */,
+			);
+			name = ContadorUITests;
+			productName = ContadorUITests;
+			productReference = A9882EF12BC6E5EF00A1F9B9 /* ContadorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9882ECF2BC6E5EB00A1F9B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A9882ED62BC6E5EB00A1F9B9 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					A9882EE62BC6E5EF00A1F9B9 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = A9882ED62BC6E5EB00A1F9B9;
+					};
+					A9882EF02BC6E5EF00A1F9B9 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = A9882ED62BC6E5EB00A1F9B9;
+					};
+				};
+			};
+			buildConfigurationList = A9882ED22BC6E5EB00A1F9B9 /* Build configuration list for PBXProject "Contador" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9882ECE2BC6E5EB00A1F9B9;
+			productRefGroup = A9882ED82BC6E5EB00A1F9B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9882ED62BC6E5EB00A1F9B9 /* Contador */,
+				A9882EE62BC6E5EF00A1F9B9 /* ContadorTests */,
+				A9882EF02BC6E5EF00A1F9B9 /* ContadorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9882ED52BC6E5EB00A1F9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9882EE22BC6E5EE00A1F9B9 /* Preview Assets.xcassets in Resources */,
+				A9882EDF2BC6E5EE00A1F9B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9882EE52BC6E5EF00A1F9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9882EEF2BC6E5EF00A1F9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9882ED32BC6E5EB00A1F9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9882EDD2BC6E5EB00A1F9B9 /* ContentView.swift in Sources */,
+				A9882EDB2BC6E5EB00A1F9B9 /* ContadorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9882EE32BC6E5EF00A1F9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9882EEC2BC6E5EF00A1F9B9 /* ContadorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9882EED2BC6E5EF00A1F9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9882EF82BC6E5EF00A1F9B9 /* ContadorUITestsLaunchTests.swift in Sources */,
+				A9882EF62BC6E5EF00A1F9B9 /* ContadorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9882EE92BC6E5EF00A1F9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9882ED62BC6E5EB00A1F9B9 /* Contador */;
+			targetProxy = A9882EE82BC6E5EF00A1F9B9 /* PBXContainerItemProxy */;
+		};
+		A9882EF32BC6E5EF00A1F9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9882ED62BC6E5EB00A1F9B9 /* Contador */;
+			targetProxy = A9882EF22BC6E5EF00A1F9B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9882EF92BC6E5EF00A1F9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9882EFA2BC6E5EF00A1F9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9882EFC2BC6E5EF00A1F9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Contador/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YMN7MCSQM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marco.Contador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9882EFD2BC6E5EF00A1F9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Contador/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YMN7MCSQM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marco.Contador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9882EFF2BC6E5EF00A1F9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YMN7MCSQM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marco.ContadorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador.app/Contador";
+			};
+			name = Debug;
+		};
+		A9882F002BC6E5EF00A1F9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YMN7MCSQM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marco.ContadorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contador.app/Contador";
+			};
+			name = Release;
+		};
+		A9882F022BC6E5EF00A1F9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YMN7MCSQM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marco.ContadorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contador;
+			};
+			name = Debug;
+		};
+		A9882F032BC6E5EF00A1F9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YMN7MCSQM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Marco.ContadorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contador;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9882ED22BC6E5EB00A1F9B9 /* Build configuration list for PBXProject "Contador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9882EF92BC6E5EF00A1F9B9 /* Debug */,
+				A9882EFA2BC6E5EF00A1F9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9882EFB2BC6E5EF00A1F9B9 /* Build configuration list for PBXNativeTarget "Contador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9882EFC2BC6E5EF00A1F9B9 /* Debug */,
+				A9882EFD2BC6E5EF00A1F9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9882EFE2BC6E5EF00A1F9B9 /* Build configuration list for PBXNativeTarget "ContadorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9882EFF2BC6E5EF00A1F9B9 /* Debug */,
+				A9882F002BC6E5EF00A1F9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9882F012BC6E5EF00A1F9B9 /* Build configuration list for PBXNativeTarget "ContadorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9882F022BC6E5EF00A1F9B9 /* Debug */,
+				A9882F032BC6E5EF00A1F9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9882ECF2BC6E5EB00A1F9B9 /* Project object */;
+}
